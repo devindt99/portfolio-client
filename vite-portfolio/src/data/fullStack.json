@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "heading": "Vivid",
+            "image": "https://i.imgur.com/Qysi17j.png",
+            "paragraph": "VIVID is a transformative wellness journaling application that I conceptualized and developed from March 2024 to April 2024. This full-stack (SERN) solution is meticulously designed for users to log longitudinal data related to activity, nutrition, and mental health, with a strong emphasis on user experience and functionality.\n\n One of the key aspects of VIVID is its recognition and integration of the intricate relationship between nutrition, athletic performance, and mental health.",
+            "link": "https://github.com/devindt99/brainstation-capstone-holistic-fitness-tracker-server/"
+        },
+        {
+            "heading": "Inov Partners",
+            "image": "https://i.imgur.com/eEt6tKr.png",
+            "paragraph": "Created Inov Partners client site using Squarespace with injected js scripting. While the project was completed within less than a month, I also provided occasional maintenance and updates when required.\n\n Website is fully responsive and serves as a means of informing and contacting potential clientele, particularly startups and venture capitalists in need of market research and strategy.",
+            "link": "https://inov.partners/"
+        },
+        {
+            "heading": "Pastis Catering",
+            "image": "https://i.imgur.com/6BxRPbC.png2",
+            "paragraph": "I had the privilege to develop the website for Pastis Catering, a Sudbury-based catering business led by an accomplished chef with experience from prestigious establishments such as Au Pied de Cochon in Montreal and Made in Japan in Toronto. Using HTML, CSS, JavaScript, and PHP with embedded MySQL, I created a dynamic and visually appealing website that showcased the chef's culinary expertise and the business's unique offerings.\n\n In addition to developing the website, I also had the opportunity to design Pastis Catering's digital menu, further highlighting the chef's signature dishes and the business's commitment to excellence.",
+            "link": "http://pastis.catering/"
+        }
+    ]
+}

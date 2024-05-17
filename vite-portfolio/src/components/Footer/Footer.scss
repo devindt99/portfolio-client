@@ -1,0 +1,47 @@
+.footer {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: auto;
+    width: 100%;
+    background-color: $graphite;
+    display: flex;
+    
+    color: white;
+    &__socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+    &__item {
+        justify-content: center;
+        flex: 1;
+        padding: auto;
+        text-align: center;
+    }
+
+    &__image {
+        max-height: 2rem;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 1.5rem 0;
+
+        &__item {
+            margin-bottom: 1rem;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

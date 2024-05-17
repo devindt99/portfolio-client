@@ -1,0 +1,87 @@
+.full-stack {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: none;
+  
+    gap: 5rem;
+    &__intro {
+        color: $graphite;
+        font-size: 130%;
+        width: 80%;
+        text-align: center;
+        align-self: center;
+        padding-bottom: 3%;
+        @media (max-width: 500px) {
+            font-size: 100%;
+        }
+    }
+    &__title {
+        font-size: 200%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    &__subtitle {
+        font-size: 190%;
+        text-align: center;
+        color: $graphite;
+        opacity: 70%;
+    }
+    &__divider {
+       
+        
+        width: 80%;
+        padding-bottom: .1%;
+
+    }
+    
+    
+}
+Section {
+    opacity: 0;
+    color: $graphite;
+}
+
+.visible {
+    animation: slide-in ease .6s;
+    
+}
+.visible-reversed {
+    animation: slide-in-reversed ease .6s;
+    
+}
+@keyframes slide-in {
+    0% {
+        z-index: -1;
+        Transform: TranslateX(-50%);
+        opacity: 0;
+    }
+
+    100% {
+        z-index: -1;
+        Transform: TranslateX(0);
+        opacity: 100%;
+    }
+}
+
+@keyframes slide-in-reversed {
+    0% {
+        z-index: -1;
+        Transform: TranslateX(50%);
+        opacity: 0;
+    }
+
+    100% {
+        z-index: -1;
+        Transform: TranslateX(0);
+        opacity: 100%;
+    }
+}
+
+.animation-ended {
+    opacity: 100%;
+}

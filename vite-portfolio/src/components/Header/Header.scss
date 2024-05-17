@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  position: absolute;
+  
+  &.dark-mode {
+    background-color: $graphite;
+  }
+  
+
+  &__nav {
+      display: flex;
+      flex: 1;
+      padding-left: 1rem;
+      padding-right: 3rem;
+      justify-content: space-between;
+
+      
+
+  }
+
+  &__subnav {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+  }
+
+  &__link {
+      text-decoration: none;
+      color: black;
+      z-index: 1;
+      &:hover {
+          background-color: $graphite;
+          color: white;
+      }
+
+      &.dark-mode {
+        color: white;
+        &:hover {
+          background-color: white;
+          color: $graphite;
+        }
+    
+      }
+  }
+  &__logo-link {
+    z-index: 1;
+    
+    &.dark-mode {
+      
+    }
+}
+  &__logo {
+      width: 5rem;
+      padding-top: 1rem;
+      
+      &.dark-mode {
+        
+      }
+  }
+
+  &__dropdown-btn {
+      width: 100%;
+      padding: 1rem;
+      z-index: 1;
+      font-size: 2rem;
+      margin: 0;
+      &.rotate {
+          animation: rotate-icon 0.5s ease forwards;
+      }
+      
+    &.dark-mode {
+      color: white;
+    }
+  }
+
+  &__dropdown-content {
+      
+      
+      display: none;
+      position: absolute;
+      right: -3rem;
+      width: 300%;
+      text-align: center;
+      
+      top: 99%;
+
+      &.show {
+          display: flex;
+          flex-direction: column;
+      }
+
+      &.dark-mode {
+       background-color: $graphite;
+      }
+  }
+
+
+}
+
+@keyframes rotate-icon {
+  100% {
+      transform: rotate(90deg);
+  }
+}
