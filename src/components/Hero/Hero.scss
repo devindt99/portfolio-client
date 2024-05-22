@@ -14,7 +14,13 @@
         width: 100%;
         
         animation: fade-up ease-out forwards .75s;
-        @media (max-width: 500px) {
+        @media (max-width: 1000px) {
+            font-size: 6rem;
+        }
+        @media (max-width: 900px) {
+            font-size: 5rem;
+        }
+        @media (max-width: 710px) {
             font-size: 3rem;
         }
 
