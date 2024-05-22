@@ -56,7 +56,7 @@ const AboutPage = () => {
                         <img className='about__img' src={MeChild} alt="Media"/>
                     </div>
                     <p className="about__paragraph">
-                        I'm a software developer born and raised in Toronto. Recently, I graduated with honors from Laurentian University and completed BrainStation's web development program. For the last 3 years, I have also worked as a web developer creating and maintaining elegant and robust websites for startups. Furthermore, I have worked on two different indie game projects in a small team as our resident programmer, sprite artist, designer, and audio engineer.
+                        I'm a software developer born and raised in Toronto. Recently, I received my in computer science with honour from Laurentian University and completed BrainStation's web development program. For the last 3 years, I have also worked as a web developer creating and maintaining elegant and robust websites for startups. Furthermore, I have worked on two different indie game projects in a small team as our resident programmer, sprite artist, designer, and audio engineer.
                     </p>
                 </div>
                 <div className='about__intro-wrapper reversed'>
